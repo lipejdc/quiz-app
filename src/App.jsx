@@ -1,10 +1,14 @@
 import "./assets/styles/global.css";
-import Header from './components/Header'
+import FooterNavigation from "./components/FooterNavigation/FooterNavigation";
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
+    <>
     <Header/>
+    <FooterNavigation />
+    </>
   )
 }
 
